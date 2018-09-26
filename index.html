@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Embedding Vega-Lite</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.19.2"></script>
+</head>
+<body>
+ 
+  <div id="vis1"></div>
+ 
+  <div id="vis2"></div>
+ 
+  <script type="text/javascript">
+    var vlSpec1 = "https://raw.githubusercontent.com/divskivs/tableau1/master/barchart.json";
+    vegaEmbed("#vis1", vlSpec1);
+ 
+    var vlSpec2 = "https://raw.githubusercontent.com/divskivs/tableau1/master/Choropleth.json";
+    vegaEmbed("#vis2", vlSpec2);
+ 
+  </script>
+</body>
+</html>
