@@ -1,4 +1,4 @@
-State_Code,State_Abv,Year,Damage_Descp,Losses
+State_Code,State_Abv,Damage_Code,Damage_Descp,Amount
 2,AK,1,Decline in Price,2728
 2,AK,11,Drought,61674
 1,AL,1,Decline in Price,691645
