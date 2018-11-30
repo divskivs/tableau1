@@ -70,7 +70,7 @@ d3.csv("https://raw.githubusercontent.com/divskivs/tableau1/master/states1.csv",
   alert("else");
 
   var ages = d3.keys(states[0]).filter(function(key) {
-    return key != "State" && key != "Total";
+    return key != "State" && key != "Total1";
   });
 
   d3.selectAll("thead td").data(ages).on("click", function(k) {
